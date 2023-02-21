@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi CV</title>
+
+    <style>
+      body {
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      #header {
+        width: 100%;
+        background-color: #22212f;
+        color: white;
+      }
+
+      table {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 20px;
+      }
+
+      #nombre {
+        padding-top: 20px;
+        font-size: 25px;
+        text-align: left;
+      }
+
+      #apellidos {
+        margin-top: -20px;
+        color: #fecb00;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #fecb00;
+        width: max-content;
+        text-align: center;
+      }
+
+      h2 {
+        background-color: #fecb00;
+        padding: 10px;
+      }
+
+      #tabla1 {
+        margin-top: -20px;
+      }
+
+      #datos th {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mi CV</h1>
+    <div id="header">
+      <table>
+        <tr>
+          <td>
+            <video width="auto" height="240" controls>
+              <source src="img/Vid.mp4" type="video/mp4" />
+            </video>
+          </td>
+
+          <td>
+            <p id="nombre">Assbel</p>
+            <h4 id="apellidos">Alanis López</h4>
+
+            <p>
+              Ingeniero en Sistemas Computacionales
+              <br />
+              Instituto Tecnologico de Orizaba
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="video">
+      <h2>Dirección</h2>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!4v1676919352267!6m8!1m7!1sCm1XqtEa8pC-YaCRt8zuyg!2m2!1d26.40851507720001!2d-99.03136301982124!3f284.71905511091256!4f0!5f0.7820865974627469"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div id="datos">
+      <h2>Acerca de mí</h2>
+
+      <div id="tabla1" style="background-color: hsla(48, 100%, 50%, 0.5)">
+        <table>
+          <tr>
+            <th style="width: 450px">Datos personales</th>
+            <th style="width: 450px">Datos académicos</th>
+          </tr>
+
+          <tr>
+            <td>
+              <ul>
+                <li>Fecha de nacimiento: 22/07/1993</li>
+                <li>Lugar de nacimiento: Ciudad Miguel Alemán, Tamaulipas</li>
+              </ul>
+            </td>
+
+            <td>
+              <ul>
+                <li>Secundaria: Secundaria General Felipe Ángeles</li>
+                <li>Preparatoria: CONALEP Plantel 259</li>
+                <li>Universidad: Instituto Tecnologico de Orizaba</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="tabla2" style="background-color: hsla(48, 100%, 50%, 0)">
+        <table>
+          <tr>
+            <th style="width: 450px">Experiencia laboral</th>
+            <th style="width: 450px">Certificaciones</th>
+          </tr>
+
+          <tr>
+            <td>
+              <ul>
+                <li>2003-2013/2015/2020 Agricultor</li>
+                <li>2013-2015 Supermercado</li>
+              </ul>
+            </td>
+
+            <td>
+              <ul>
+                <li>MPA</li>
+                <li>OPTO</li>
+                <li>ACE</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="tabla3" style="background-color: hsla(48, 100%, 50%, 0.5)">
+        <table>
+          <tr>
+            <th>Lenguas adicionales</th>
+          </tr>
+  
+          <tr>
+            <td>
+              <ul>
+                <li>Inglés: 85%</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
